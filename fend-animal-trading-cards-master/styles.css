@@ -1,0 +1,35 @@
+/*Image specifications*/
+#peacock_img {
+	width:300px;
+	height:200px;
+}
+/*Specifications for elements surrounded by a border*/
+.border {
+	border-style: solid;
+	border-color: #000033;
+	border-width: 2px; 
+	padding: 10px;
+	box-shadow: 5px 5px 20px #003;
+}
+/*Specifications for the part containing text*/
+.fact {
+	font-style: italic;
+}
+/*Specification for all span elements*/
+span {
+	font-weight: bold;
+}
+/*specification of the list*/
+ul {
+	list-style: none;
+	padding: 0;
+}
+/*Specifications for the entire card*/
+.card {
+	width:320px;
+	max-width: 320px;
+	background-color: #00004c;
+}
+body {
+	color: #006600;
+}
