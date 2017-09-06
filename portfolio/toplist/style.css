@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+/*For testing the outline on the page*/
+* {
+	outline: 1px solid red !important;
+}
+
+/*how the box size is defined - contents can't be larger than box size*/
 * {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;

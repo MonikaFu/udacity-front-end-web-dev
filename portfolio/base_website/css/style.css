@@ -1,0 +1,11 @@
+/*Set the maximal width of these of objects to 100% 
+so that they don't flow out of their containers*/
+img, embed, object, video {
+	max-width: 100%;
+}
+/*Make the clickable elements big enough so that it is 
+easy to click with your finger*/
+nav a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
